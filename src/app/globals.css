@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0a1f44;
+  --color-navy-light: #1a3a6e;
+  --color-gold: #c9a227;
+  --color-gold-light: #e8c84a;
+  --color-red-brand: #c62828;
+  --color-red-dark: #a02020;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::selection {
+  background-color: #c9a227;
+  color: #0a1f44;
+}
