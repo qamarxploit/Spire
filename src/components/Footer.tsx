@@ -127,7 +127,7 @@ export default function Footer() {
       <div className="bg-[#05122a] py-4">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2026 Spire Academy. All Rights Reserved. | Designed & Developed by Qamar Abbas (Qamar Explore)
+            &copy; 2026 Spire Academy. All Rights Reserved. | Designed & Developed by Qamar Orakzai (qamarxploit)
           </p>
         </div>
       </div>
