@@ -19,30 +19,24 @@ export default function AdmissionsPage() {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus("submitting");
-    setErrorMsg("");
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
 
-    try {
-      const res = await fetch("/api/admissions", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+  // ادارے کا واٹس ایپ نمبر (بین الاقوامی فارمیٹ میں)
+  const phoneNumber = "923045060323";
 
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(data.error || "Failed to submit inquiry");
-      }
+  // واٹس ایپ پر جانے والا میسج فارمیٹ
+  const textMessage = `*New Inquiry / Admission Request*%0A%0A` +
+    `*Student Name:* ${name}%0A` +
+    `*Phone/WhatsApp:* ${phone}%0A` +
+    `*Class Applying For:* ${className}%0A` +
+    `*Message:* ${message}`;
 
-      setStatus("success");
-      setFormData({ studentName: "", phone: "", classApplying: "", message: "" });
-    } catch (err: any) {
-      setStatus("error");
-      setErrorMsg(err.message || "Something went wrong. Please try again.");
-    }
-  };
+  // واٹس ایپ اوپن کرنے کا لنک
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${textMessage}`;
+  window.open(whatsappUrl, '_blank');
+};
+
 
   return (
     <div>
