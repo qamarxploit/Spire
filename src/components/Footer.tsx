@@ -120,7 +120,7 @@ export default function Footer() {
           <p className="text-gray-400 text-sm">
             &copy; 2026 Spire Academy. All Rights Reserved. | Designed & Developed by{" "}
             <a
-              href="https://qamarorakzai.rf.gd/"
+              href="https://qamarorakzai.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#c9a227] hover:underline font-semibold"
