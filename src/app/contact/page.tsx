@@ -53,7 +53,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-lg font-bold text-[#0a1f44] mb-2">Programs</h3>
                 <p className="text-gray-600 text-sm">Morning: Spire School & College</p>
-                <p className="text-gray-600 text-sm">Evening: Spire Academy / Coaching</p>
+                <p className="text-gray-600 text-sm">Evening: Spire Evening Couching Academy</p>
               </div>
             </div>
 
@@ -65,7 +65,7 @@ export default function ContactPage() {
                   <h2 className="text-2xl font-bold text-[#0a1f44]">Visit Our Campus</h2>
                 </div>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  We welcome parents and students to visit our campus and experience the Spire Academy
+                  We welcome parents and students to visit our campus and experience the Spire School & College 
                   environment firsthand. Our staff will be happy to give you a tour, answer your questions,
                   and guide you through the admissions process.
                 </p>
@@ -80,7 +80,7 @@ export default function ContactPage() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Spire Academy Location"
+                    title="Spire School & College Location"
                   />
                 </div>
               </div>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                 <div className="bg-[#c62828] rounded-2xl p-8 text-white">
                   <h3 className="text-xl font-bold text-white mb-4">Evening Campus</h3>
                   <p className="text-gray-100 text-sm leading-relaxed mb-4">
-                    Spire Academy / Evening Coaching provides academic coaching and digital skills training
+                    Spire School & College provides academic coaching and digital skills training
                     in the evening hours for students seeking extra support and modern skill development.
                   </p>
                   <ul className="space-y-2 text-sm text-gray-100">

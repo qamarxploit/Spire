@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GraduationCap, MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 const quickLinks = [
   { href: "/", label: "Home" },
@@ -18,20 +18,24 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <div className="bg-white rounded-full p-2 shadow-md">
-                <GraduationCap size={28} className="text-[#0a1f44]" />
+              <div className="bg-white rounded-full p-1 shadow-md flex items-center justify-center w-12 h-12 overflow-hidden">
+                <img
+                  src="/images/spire-logo.png"
+                  alt="Spire Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="text-lg font-bold leading-tight">
-                  SPIRE <span className="text-[#c9a227]">ACADEMY</span>
+                  SPIRE <span className="text-[#c9a227]">SCHOOL & COLLEGE</span>
                 </span>
                 <span className="text-[10px] text-gray-300 uppercase tracking-widest">
-                  School & College
+                  & Evening Coaching Academy
                 </span>
               </div>
             </Link>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Inspiring Excellence — Where Excellence Meets Success! Operating as Spire School & College in the morning and Spire Academy in the evening.
+              Inspiring Excellence — Where Excellence Meets Success! Operating as Spire School & College in the morning.
             </p>
           </div>
 
@@ -118,7 +122,7 @@ export default function Footer() {
       <div className="bg-[#05122a] py-4">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2026 Spire Academy. All Rights Reserved. | Designed & Developed by{" "}
+            &copy; 2026 Spire School & College. All Rights Reserved. | Designed & Developed by{" "}
             <a
               href="https://qamarorakzai.vercel.app/"
               target="_blank"

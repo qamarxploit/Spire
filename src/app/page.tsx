@@ -21,7 +21,7 @@ export default function HomePage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/hero.jpg"
-            alt="Spire Academy Campus"
+            alt="Spire Evening Couching Campus"
             fill
             className="object-cover"
             priority
@@ -44,7 +44,7 @@ export default function HomePage() {
               <span className="text-[#c9a227]">Where Excellence Meets Success!</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto mb-8 leading-relaxed">
-              Spire Academy is a premier educational institution dedicated to nurturing young minds
+              Spire School & College is a premier educational institution dedicated to nurturing young minds
               with quality education, modern skills, and strong moral values.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -72,14 +72,14 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#0a1f44] mb-6">
-                Welcome to <span className="text-[#c9a227]">Spire Academy</span>
+                Welcome to <span className="text-[#c9a227]">Spire School & College </span>
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Our institute operates under two distinguished names to serve students throughout the day:
                   <strong className="text-[#0a1f44]"> Spire School & College</strong> in the morning,
                   providing comprehensive regular schooling, and{" "}
-                  <strong className="text-[#0a1f44]">Spire Academy / Evening Coaching</strong> in the
+                  <strong className="text-[#0a1f44]">Spire School & College</strong> in the
                   evening, offering specialized coaching and skill development programs.
                 </p>
                 <p>
@@ -107,7 +107,7 @@ export default function HomePage() {
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/classroom2.jpg"
-                alt="Students at Spire Academy"
+                alt="Students at Spire School & College"
                 fill
                 className="object-cover"
               />
@@ -176,7 +176,7 @@ export default function HomePage() {
       <section className="py-16 bg-[#0a1f44]">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Join <span className="text-[#c9a227]">Spire Academy?</span>
+            Ready to Join <span className="text-[#c9a227]">Spire School & College?</span>
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
             Take the first step towards a brighter future. Admissions are now open for the new academic

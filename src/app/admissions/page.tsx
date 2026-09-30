@@ -145,7 +145,7 @@ export default function AdmissionsPage() {
                     <CheckCircle size={48} className="text-green-600 mx-auto mb-4" />
                     <h3 className="text-xl font-bold text-green-800 mb-2">Inquiry Submitted!</h3>
                     <p className="text-green-700 mb-6">
-                      Thank you for your interest in Spire Academy. Your details have been redirected to WhatsApp!
+                      Thank you for your interest in Spire School & College. Your details have been redirected to WhatsApp!
                     </p>
                     <button
                       onClick={() => setStatus("idle")}

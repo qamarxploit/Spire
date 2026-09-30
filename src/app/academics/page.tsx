@@ -34,7 +34,7 @@ export default function AcademicsPage() {
             <div className="order-2 md:order-1 relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/classroom2.jpg"
-                alt="Regular Schooling at Spire Academy"
+                alt="Regular Schooling at Spire School & College"
                 fill
                 className="object-cover"
               />
@@ -186,7 +186,7 @@ export default function AcademicsPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#0a1f44]">Evening Program</h3>
-                  <p className="text-sm text-gray-500">Spire Academy / Evening Coaching</p>
+                  <p className="text-sm text-gray-500">Spire School & College </p>
                 </div>
               </div>
               <ul className="space-y-3">

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, GraduationCap, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -24,7 +24,9 @@ export default function Header() {
       {/* Top bar */}
       <div className="bg-[#c62828] text-white text-xs py-1.5">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-          <span className="font-medium">Spire School & College | Spire Academy</span>
+          <span className="font-medium">
+            Spire School & College 
+          </span>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
               <Phone size={12} />
@@ -40,15 +42,19 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="bg-white rounded-full p-2 shadow-md">
-            <GraduationCap size={32} className="text-[#0a1f44]" />
+          <div className="bg-white rounded-full p-1 shadow-md flex items-center justify-center w-12 h-12 overflow-hidden">
+            <img
+              src="/images/spire-logo.png"
+              alt="Spire Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-bold text-white leading-tight tracking-wide">
-              SPIRE <span className="text-[#c9a227]">ACADEMY</span>
+            <span className="text-lg font-bold text-white leading-tight tracking-wide">
+              SPIRE <span className="text-[#c9a227]">SCHOOL & COLLEGE</span>
             </span>
             <span className="text-[10px] text-gray-300 uppercase tracking-widest">
-              School & College
+              & Evening Coaching Academy
             </span>
           </div>
         </Link>

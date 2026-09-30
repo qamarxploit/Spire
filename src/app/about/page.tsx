@@ -11,7 +11,7 @@ export default function AboutPage() {
             About <span className="text-[#c9a227]">Us</span>
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Discover our vision, mission, and the dedicated team behind Spire Academy's commitment to excellence.
+            Discover our vision, mission, and the dedicated team behind Spire School & College's commitment to excellence.
           </p>
         </div>
       </section>
@@ -23,7 +23,7 @@ export default function AboutPage() {
             <div className="relative h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/director.jpg"
-                alt="Director of Spire Academy"
+                alt="Director of Spire School"
                 fill
                 className="object-cover"
               />
@@ -38,7 +38,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Welcome to Spire Academy — a place where dreams take shape and futures are built. As the
+                  Welcome to Spire School & College— a place where dreams take shape and futures are built. As the
                   Director, it is my profound belief that education is not merely about acquiring knowledge;
                   it is about shaping character, igniting curiosity, and empowering young minds to become
                   leaders of tomorrow.
@@ -56,8 +56,8 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="mt-8 pt-6 border-t border-gray-200">
-                <p className="text-[#0a1f44] font-bold text-lg">Director, Spire Academy</p>
-                <p className="text-gray-500 text-sm">Spire School & College | Spire Academy</p>
+                <p className="text-[#0a1f44] font-bold text-lg">Director, Spire School</p>
+                <p className="text-gray-500 text-sm">Spire School & College </p>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function AboutPage() {
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/classroom1.jpg"
-                alt="Spire Academy Classroom"
+                alt="Spire School Classroom"
                 fill
                 className="object-cover"
               />
